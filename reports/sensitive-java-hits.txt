@@ -1,0 +1,391 @@
+﻿E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\NativeApi.java:9:public class NativeApi {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils.java:5: *  com.sun.jna.Native
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils.java:9:import com.sun.jna.Native;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils.java:11:import org.ywzj.doganticheat.WindowUtils$User32;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils.java:19:        WindowUtils$User32 windowUtils$User32 = WindowUtils$User32.INSTANCE;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils.java:21:        windowUtils$User32.EnumWindows((hWND, pointer) -> {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils.java:23:            windowUtils$User32.GetWindowTextA(hWND, byArray, 512);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1.java:11:import java.lang.instrument.ClassFileTransformer;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1.java:16:import org.ywzj.doganticheat.Premain$1$1;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1.java:17:import org.ywzj.doganticheat.Premain$1$2;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1.java:19:class Premain$1
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1.java:20:implements ClassFileTransformer {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1.java:21:    Premain$1() {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1.java:29:                Premain$1$1 premain$1$1 = new Premain$1$1(this, 589824, (ClassVisitor)classWriter);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1.java:30:                classReader.accept((ClassVisitor)premain$1$1, 0);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1.java:40:                Premain$1$2 premain$1$2 = new Premain$1$2(this, 589824, (ClassVisitor)classWriter);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1.java:41:                classReader.accept((ClassVisitor)premain$1$2, 0);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$1.java:12:import org.ywzj.doganticheat.Premain$1;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$1.java:13:import org.ywzj.doganticheat.Premain$1$1$1;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$1.java:15:class Premain$1$1
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$1.java:17:    final /* synthetic */ Premain.1 this$0;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$1.java:19:    Premain$1$1(Premain.1 var1_1, int n2, ClassVisitor classVisitor) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$1.java:27:            return new Premain$1$1$1(this, 589824, methodVisitor);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:7: *  net.minecraft.Util
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:8: *  net.minecraft.client.Minecraft
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:9: *  net.minecraft.client.player.LocalPlayer
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:10: *  net.minecraft.client.renderer.block.model.BlockElement
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:11: *  net.minecraft.client.renderer.block.model.BlockElementFace
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:12: *  net.minecraft.client.renderer.block.model.BlockModel
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:13: *  net.minecraft.client.renderer.texture.SpriteContents
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:14: *  net.minecraft.client.renderer.texture.TextureAtlasSprite
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:15: *  net.minecraft.core.Direction
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:16: *  net.minecraft.resources.ResourceLocation
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:17: *  net.minecraft.server.packs.resources.Resource
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:28:import net.minecraft.Util;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:29:import net.minecraft.client.Minecraft;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:30:import net.minecraft.client.player.LocalPlayer;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:31:import net.minecraft.client.renderer.block.model.BlockElement;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:32:import net.minecraft.client.renderer.block.model.BlockElementFace;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:33:import net.minecraft.client.renderer.block.model.BlockModel;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:34:import net.minecraft.client.renderer.texture.SpriteContents;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:35:import net.minecraft.client.renderer.texture.TextureAtlasSprite;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:36:import net.minecraft.core.Direction;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:37:import net.minecraft.resources.ResourceLocation;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:38:import net.minecraft.server.packs.resources.Resource;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\c.java:187:            field.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\c.java:5: *  cpw.mods.modlauncher.TransformingClassLoader
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\c.java:9:import cpw.mods.modlauncher.TransformingClassLoader;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\c.java:135:            a = TransformingClassLoader.getSystemClassLoader().loadClass("org.ywzj.doganticheat.core.NativeApi");
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$1$1.java:10:import org.ywzj.doganticheat.Premain$1$1;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$1$1.java:12:class Premain$1$1$1
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$1$1.java:14:    final /* synthetic */ Premain.1.1 this$1;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$1$1.java:16:    Premain$1$1$1(Premain.1.1 var1_1, int n2, MethodVisitor methodVisitor) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$1$1.java:24:        this.mv.visitMethodInsn(184, "org/ywzj/doganticheat/core/EncryptedFileSystem", "openFileSystem", "(Ljava/nio/file/Path;)Ljava/util/Optional;", false);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\DogAntiCheat.java:6: *  cpw.mods.modlauncher.TransformingClassLoader
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\DogAntiCheat.java:7: *  net.minecraftforge.eventbus.api.IEventBus
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\DogAntiCheat.java:8: *  net.minecraftforge.fml.common.Mod
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\DogAntiCheat.java:9: *  net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\DogAntiCheat.java:15:import cpw.mods.modlauncher.TransformingClassLoader;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\DogAntiCheat.java:17:import net.minecraftforge.eventbus.api.IEventBus;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\DogAntiCheat.java:18:import net.minecraftforge.fml.common.Mod;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\DogAntiCheat.java:19:import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\DogAntiCheat.java:52:                if (!string.contains("Plain Craft Launcher")) continue;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils$User32.java:5: *  com.sun.jna.Native
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils$User32.java:6: *  com.sun.jna.Pointer
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils$User32.java:7: *  com.sun.jna.platform.win32.WinDef$HWND
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils$User32.java:8: *  com.sun.jna.platform.win32.WinUser$WNDENUMPROC
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils$User32.java:9: *  com.sun.jna.win32.StdCallLibrary
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils$User32.java:13:import com.sun.jna.Native;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils$User32.java:14:import com.sun.jna.Pointer;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils$User32.java:15:import com.sun.jna.platform.win32.WinDef;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils$User32.java:16:import com.sun.jna.platform.win32.WinUser;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils$User32.java:17:import com.sun.jna.win32.StdCallLibrary;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils$User32.java:19:public interface WindowUtils$User32
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\WindowUtils$User32.java:21:    public static final WindowUtils$User32 INSTANCE = (WindowUtils$User32)Native.loadLibrary((String)"user32", WindowUtils$User32.class);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\a.java:5: *  net.minecraft.server.packs.FilePackResources
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\a.java:6: *  net.minecraft.server.packs.PathPackResources
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\a.java:7: *  net.minecraftforge.fml.loading.FMLPaths
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\a.java:22:import net.minecraft.server.packs.FilePackResources;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\a.java:23:import net.minecraft.server.packs.PathPackResources;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\a.java:24:import net.minecraftforge.fml.loading.FMLPaths;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\a.java:39:                    field.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\a.java:59:                field.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\a.java:74:                fileArray = file2.listFiles();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\b.java:5: *  net.minecraft.client.Minecraft
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\b.java:18:import net.minecraft.client.Minecraft;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\a\b.java:56:            for (Object object2 : object = a.listFiles()) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$2.java:21:import org.ywzj.doganticheat.Premain$1;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$2.java:23:class Premain$1$2
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$2.java:25:    final /* synthetic */ Premain$1 this$0;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$2.java:27:    Premain$1$2(Premain$1 premain$1, int n2, ClassVisitor classVisitor) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$2.java:28:        this.this$0 = premain$1;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$2.java:43:            generatorAdapter.invokeStatic(Type.getType((String)"Lcpw/mods/modlauncher/TransformingClassLoader;"), new Method("getSystemClassLoader", "()Ljava/lang/ClassLoader;"));
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain$1$2.java:44:            generatorAdapter.push("org.ywzj.doganticheat.core.EncryptedFileSystem");
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\EncryptedFileSystem.java:10:import java.lang.invoke.MethodHandles;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\EncryptedFileSystem.java:36:public class EncryptedFileSystem {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\EncryptedFileSystem.java:64:            FileSystem fileSystem = EncryptedFileSystem.newFileSystem(path);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\EncryptedFileSystem.java:104:            Field field = MethodHandles.Lookup.class.getDeclaredField("IMPL_LOOKUP");
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\EncryptedFileSystem.java:105:            field.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\EncryptedFileSystem.java:106:            MethodHandles.Lookup lookup = (MethodHandles.Lookup)field.get(null);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\EncryptedFileSystem.java:117:            EFSM_CONSTRUCTOR.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\b.java:56:        method.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\b.java:80:        field.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\b.java:82:        field2.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\b.java:99:        field3.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\b.java:103:        field4.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\b.java:108:        field5.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\b.java:111:        method2.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\b.java:116:        field6.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\b.java:119:        field7.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\b.java:122:        method3.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\b.java:153:            field.setAccessible(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\o.java:5: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\o.java:9:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\b.java:5: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\b.java:9:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\j.java:5: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\j.java:9:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\e.java:5: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\e.java:10:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\d.java:5: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\d.java:9:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\n.java:6: *  com.google.gson.reflect.TypeToken
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\n.java:7: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\n.java:12:import com.google.gson.reflect.TypeToken;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\n.java:15:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\n.java:39:            hashMap = (HashMap)gson.fromJson(string, TypeToken.getParameterized(HashMap.class, (Type[])new Type[]{String.class, String.class}).getType());
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\c.java:5: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\c.java:10:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\i.java:5: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\i.java:11:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\h.java:5: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\h.java:10:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\g.java:5: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\g.java:10:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\l.java:5: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\l.java:12:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\k.java:5: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\b\k.java:9:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\a.java:40:        System.load(file3.getAbsolutePath());
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\a.java:130:        if (file.exists() && file.isDirectory() && (fileArray = file.listFiles()) != null) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\core\a.java:134:                    file2.delete();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a.java:5: *  net.minecraft.resources.ResourceLocation
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a.java:6: *  net.minecraftforge.eventbus.api.SubscribeEvent
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a.java:7: *  net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a.java:8: *  net.minecraftforge.network.NetworkDirection
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a.java:9: *  net.minecraftforge.network.NetworkRegistry
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a.java:10: *  net.minecraftforge.network.simple.SimpleChannel
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a.java:16:import net.minecraft.resources.ResourceLocation;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a.java:17:import net.minecraftforge.eventbus.api.SubscribeEvent;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a.java:18:import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a.java:19:import net.minecraftforge.network.NetworkDirection;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a.java:20:import net.minecraftforge.network.NetworkRegistry;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a.java:21:import net.minecraftforge.network.simple.SimpleChannel;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain.java:6:import java.lang.instrument.Instrumentation;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain.java:12:import org.ywzj.doganticheat.Premain$1;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain.java:13:import org.ywzj.doganticheat.core.NativeApi;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain.java:15:public class Premain {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain.java:16:    public static void premain(String string, Instrumentation instrumentation) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain.java:18:            new Thread(NativeApi::core0).start();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain.java:21:        instrumentation.addTransformer(new Premain$1());
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain.java:26:            NativeApi.op2(publicKey.getEncoded());
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\Premain.java:27:            NativeApi.op3((byte)1);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\c\c.java:18:            File[] fileArray = file.listFiles();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\File.java:81:    void deleted() {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\File.java:164:    public final synchronized void deleteAttribute(String string, String string2) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:52:import org.ywzj.doganticheat.jimfs.FileSystemView$DeleteMode;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:344:    public void deleteFile(JimfsPath jimfsPath, FileSystemView$DeleteMode fileSystemView$DeleteMode) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:348:            this.delete(directoryEntry, fileSystemView$DeleteMode, jimfsPath);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:355:    private void delete(DirectoryEntry directoryEntry, FileSystemView$DeleteMode fileSystemView$DeleteMode, JimfsPath jimfsPath) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:358:        this.checkDeletable(file, fileSystemView$DeleteMode, jimfsPath);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:361:        file.deleted();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:364:    private void checkDeletable(File file, FileSystemView$DeleteMode fileSystemView$DeleteMode, Path path) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:366:            throw new FileSystemException(path.toString(), null, "can't delete root directory");
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:369:            if (fileSystemView$DeleteMode == FileSystemView$DeleteMode.NON_DIRECTORY_ONLY) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:370:                throw new FileSystemException(path.toString(), null, "can't delete: is a directory");
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:373:        } else if (fileSystemView$DeleteMode == FileSystemView$DeleteMode.DIRECTORY_ONLY) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:374:            throw new FileSystemException(path.toString(), null, "can't delete: is not a directory");
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:410:                    this.checkDeletable(file, FileSystemView$DeleteMode.ANY, jimfsPath);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:418:                    fileSystemView.delete(directoryEntry2, FileSystemView$DeleteMode.ANY, jimfsPath2);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView.java:440:                    this.delete(directoryEntry, FileSystemView$DeleteMode.ANY, jimfsPath);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\h.java:5: *  net.minecraftforge.network.NetworkEvent$Context
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\h.java:10:import net.minecraftforge.network.NetworkEvent;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\Handler.java:13:import java.net.URLConnection;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\Handler.java:16:import org.ywzj.doganticheat.jimfs.PathURLConnection;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\Handler.java:42:    protected URLConnection openConnection(URL uRL) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\Handler.java:43:        return new PathURLConnection(uRL);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\c.java:5: *  net.minecraftforge.network.NetworkEvent$Context
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\c.java:17:import net.minecraftforge.network.NetworkEvent;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ServerListMixin.java:5: *  net.minecraft.client.multiplayer.ServerData
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ServerListMixin.java:6: *  net.minecraft.client.multiplayer.ServerList
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ServerListMixin.java:18:import net.minecraft.client.multiplayer.ServerData;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ServerListMixin.java:19:import net.minecraft.client.multiplayer.ServerList;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ServerListMixin.java:29:@Mixin(value={ServerList.class})
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ServerListMixin.java:30:public class ServerListMixin {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\FileSystemView$DeleteMode.java:6:public enum FileSystemView$DeleteMode {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\JimfsFileSystemProvider.java:42:import org.ywzj.doganticheat.jimfs.FileSystemView$DeleteMode;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\JimfsFileSystemProvider.java:194:    public void delete(Path path) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\JimfsFileSystemProvider.java:197:        fileSystemView.deleteFile(jimfsPath, FileSystemView$DeleteMode.ANY);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\JimfsSecureDirectoryStream.java:25:import org.ywzj.doganticheat.jimfs.FileSystemView$DeleteMode;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\JimfsSecureDirectoryStream.java:87:    public void deleteFile(Path path) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\JimfsSecureDirectoryStream.java:90:        this.view.deleteFile(jimfsPath, FileSystemView$DeleteMode.NON_DIRECTORY_ONLY);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\JimfsSecureDirectoryStream.java:93:    public void deleteDirectory(Path path) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\JimfsSecureDirectoryStream.java:96:        this.view.deleteFile(jimfsPath, FileSystemView$DeleteMode.DIRECTORY_ONLY);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\RegularFile.java:38:    private boolean deleted = false;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\RegularFile.java:144:        if (--this.openCount == 0 && this.deleted) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\RegularFile.java:145:            this.deleteContents();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\RegularFile.java:150:    public synchronized void deleted() {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\RegularFile.java:152:            this.deleted = true;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\RegularFile.java:154:                this.deleteContents();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\RegularFile.java:159:    private void deleteContents() {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\UserDefinedAttributeProvider$View.java:58:    public void delete(String string) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\UserDefinedAttributeProvider$View.java:59:        this.lookupFile().deleteAttribute(this.name(), string);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\b.java:5: *  net.minecraftforge.fml.LogicalSide
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\b.java:6: *  net.minecraftforge.network.NetworkEvent$Context
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\b.java:13:import net.minecraftforge.fml.LogicalSide;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\b.java:14:import net.minecraftforge.network.NetworkEvent;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\g.java:5: *  net.minecraft.client.Minecraft
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\g.java:6: *  net.minecraftforge.fml.loading.FMLPaths
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\g.java:7: *  net.minecraftforge.network.NetworkEvent$Context
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\g.java:21:import net.minecraft.client.Minecraft;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\g.java:22:import net.minecraftforge.fml.loading.FMLPaths;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\g.java:23:import net.minecraftforge.network.NetworkEvent;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\c\a.java:5: *  net.minecraft.client.Minecraft
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\c\a.java:13:import net.minecraft.client.Minecraft;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:7: *  net.minecraft.network.Connection
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:8: *  net.minecraft.network.ConnectionProtocol
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:9: *  net.minecraft.network.FriendlyByteBuf
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:10: *  net.minecraft.network.PacketEncoder
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:11: *  net.minecraft.network.SkipPacketException
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:12: *  net.minecraft.network.protocol.Packet
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:13: *  net.minecraft.network.protocol.PacketFlow
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:14: *  net.minecraft.util.profiling.jfr.JvmProfiler
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:25:import net.minecraft.network.Connection;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:26:import net.minecraft.network.ConnectionProtocol;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:27:import net.minecraft.network.FriendlyByteBuf;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:28:import net.minecraft.network.PacketEncoder;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:29:import net.minecraft.network.SkipPacketException;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:30:import net.minecraft.network.protocol.Packet;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:31:import net.minecraft.network.protocol.PacketFlow;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\PacketEncoderFix.java:32:import net.minecraft.util.profiling.jfr.JvmProfiler;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\KeyboardHandlerMixin.java:5: *  net.minecraft.client.KeyboardHandler
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\KeyboardHandlerMixin.java:6: *  net.minecraft.client.Minecraft
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\KeyboardHandlerMixin.java:16:import net.minecraft.client.KeyboardHandler;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\KeyboardHandlerMixin.java:17:import net.minecraft.client.Minecraft;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\KeyboardHandlerMixin.java:25:@Mixin(value={KeyboardHandler.class})
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\KeyboardHandlerMixin.java:26:public class KeyboardHandlerMixin {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\KeyboardHandlerMixin.java:27:    @Inject(method={"keyPress"}, at={@At(value="TAIL")}, locals=LocalCapture.CAPTURE_FAILHARD)
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\KeyboardHandlerMixin.java:28:    public void keyPress(long l2, int n2, int n3, int n4, int n5, CallbackInfo callbackInfo) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\SystemJimfsFileSystemProvider.java:130:    public void delete(Path path) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\BlockModelMixin.java:6: *  net.minecraft.client.renderer.block.model.BlockModel
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\BlockModelMixin.java:7: *  net.minecraft.client.resources.model.ModelBaker
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\BlockModelMixin.java:8: *  net.minecraft.client.resources.model.ModelState
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\BlockModelMixin.java:9: *  net.minecraft.resources.ResourceLocation
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\BlockModelMixin.java:20:import net.minecraft.client.renderer.block.model.BlockModel;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\BlockModelMixin.java:21:import net.minecraft.client.resources.model.ModelBaker;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\BlockModelMixin.java:22:import net.minecraft.client.resources.model.ModelState;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\BlockModelMixin.java:23:import net.minecraft.resources.ResourceLocation;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\LazyJsonDataManagerMixin.java:11: *  net.minecraft.resources.ResourceLocation
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\LazyJsonDataManagerMixin.java:12: *  net.minecraft.server.packs.resources.Resource
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\LazyJsonDataManagerMixin.java:13: *  net.minecraft.server.packs.resources.ResourceManager
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\LazyJsonDataManagerMixin.java:14: *  net.minecraft.util.GsonHelper
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\LazyJsonDataManagerMixin.java:33:import net.minecraft.resources.ResourceLocation;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\LazyJsonDataManagerMixin.java:34:import net.minecraft.server.packs.resources.Resource;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\LazyJsonDataManagerMixin.java:35:import net.minecraft.server.packs.resources.ResourceManager;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\LazyJsonDataManagerMixin.java:36:import net.minecraft.util.GsonHelper;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\EntityRenderDispatcherMixin.java:7: *  net.minecraft.client.renderer.entity.EntityRenderDispatcher
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\EntityRenderDispatcherMixin.java:8: *  net.minecraft.world.entity.Entity
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\EntityRenderDispatcherMixin.java:16:import net.minecraft.client.renderer.entity.EntityRenderDispatcher;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\EntityRenderDispatcherMixin.java:17:import net.minecraft.world.entity.Entity;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\a.java:5: *  net.minecraft.client.Minecraft
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\a.java:6: *  net.minecraftforge.network.NetworkEvent$Context
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\a.java:13:import net.minecraft.client.Minecraft;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\a.java:14:import net.minecraftforge.network.NetworkEvent;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ReloadableResourceManagerMixin.java:5: *  net.minecraft.server.packs.resources.ReloadableResourceManager
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ReloadableResourceManagerMixin.java:16:import net.minecraft.server.packs.resources.ReloadableResourceManager;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ResourceScannerMixin.java:12: *  net.minecraft.resources.FileToIdConverter
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ResourceScannerMixin.java:13: *  net.minecraft.resources.ResourceLocation
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ResourceScannerMixin.java:14: *  net.minecraft.server.packs.resources.Resource
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ResourceScannerMixin.java:15: *  net.minecraft.server.packs.resources.ResourceManager
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ResourceScannerMixin.java:16: *  net.minecraft.util.GsonHelper
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ResourceScannerMixin.java:35:import net.minecraft.resources.FileToIdConverter;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ResourceScannerMixin.java:36:import net.minecraft.resources.ResourceLocation;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ResourceScannerMixin.java:37:import net.minecraft.server.packs.resources.Resource;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ResourceScannerMixin.java:38:import net.minecraft.server.packs.resources.ResourceManager;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\ResourceScannerMixin.java:39:import net.minecraft.util.GsonHelper;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\MinecraftMixin.java:5: *  net.minecraft.client.Minecraft
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\MinecraftMixin.java:6: *  net.minecraft.world.entity.Entity
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\MinecraftMixin.java:12:import net.minecraft.client.Minecraft;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\MinecraftMixin.java:13:import net.minecraft.world.entity.Entity;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\f.java:5: *  net.minecraft.client.Minecraft
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\f.java:6: *  net.minecraftforge.network.NetworkEvent$Context
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\f.java:11:import net.minecraft.client.Minecraft;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\f.java:12:import net.minecraftforge.network.NetworkEvent;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\PathURLConnection.java:28:import java.net.URLConnection;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\PathURLConnection.java:44:final class PathURLConnection
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\PathURLConnection.java:45:extends URLConnection {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\PathURLConnection.java:51:    PathURLConnection(URL uRL) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\PathURLConnection.java:65:        Path path = Paths.get(PathURLConnection.toUri(this.url));
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\HttpTextureMixin.java:6: *  net.minecraft.client.renderer.texture.HttpTexture
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\HttpTextureMixin.java:15:import net.minecraft.client.renderer.texture.HttpTexture;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\CameraTypeMixin.java:5: *  net.minecraft.client.CameraType
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\CameraTypeMixin.java:11:import net.minecraft.client.CameraType;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\PollingWatchService$Snapshot.java:41:        if (abstractWatchService$Key.subscribesTo(StandardWatchEventKinds.ENTRY_DELETE)) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\jimfs\PollingWatchService$Snapshot.java:44:                abstractWatchService$Key.post(new AbstractWatchService$Event(StandardWatchEventKinds.ENTRY_DELETE, 1, PollingWatchService.access$200(this.this$0).createFileName(name)));
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\e.java:5: *  net.minecraftforge.network.NetworkEvent$Context
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\e.java:10:import net.minecraftforge.network.NetworkEvent;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\d.java:5: *  net.minecraft.client.Minecraft
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\d.java:6: *  net.minecraftforge.network.NetworkEvent$Context
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\d.java:12:import net.minecraft.client.Minecraft;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\b\a\d.java:13:import net.minecraftforge.network.NetworkEvent;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:7: *  net.minecraft.client.Minecraft
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:8: *  net.minecraft.client.gui.components.Button
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:9: *  net.minecraft.client.gui.components.events.GuiEventListener
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:10: *  net.minecraft.client.gui.layouts.FrameLayout
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:11: *  net.minecraft.client.gui.layouts.GridLayout
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:12: *  net.minecraft.client.gui.layouts.GridLayout$RowHelper
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:13: *  net.minecraft.client.gui.layouts.LayoutElement
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:14: *  net.minecraft.client.gui.layouts.LinearLayout
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:15: *  net.minecraft.client.gui.layouts.LinearLayout$Orientation
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:16: *  net.minecraft.client.gui.layouts.SpacerElement
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:17: *  net.minecraft.client.gui.screens.ConfirmScreen
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:18: *  net.minecraft.client.gui.screens.DirectJoinServerScreen
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:19: *  net.minecraft.client.gui.screens.EditServerScreen
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:20: *  net.minecraft.client.gui.screens.Screen
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:21: *  net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:22: *  net.minecraft.client.gui.screens.multiplayer.ServerSelectionList
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:23: *  net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$Entry
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:24: *  net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$OnlineServerEntry
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:25: *  net.minecraft.client.multiplayer.ServerData
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:26: *  net.minecraft.client.multiplayer.ServerList
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:27: *  net.minecraft.client.resources.language.I18n
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:28: *  net.minecraft.client.server.LanServerDetection$LanServerDetector
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:29: *  net.minecraft.client.server.LanServerDetection$LanServerList
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:30: *  net.minecraft.network.chat.CommonComponents
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:31: *  net.minecraft.network.chat.Component
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:32: *  net.minecraft.network.chat.MutableComponent
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:33: *  net.minecraftforge.fml.loading.FMLPaths
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:52:import java.net.HttpURLConnection;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:53:import java.net.ServerSocket;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:64:import net.minecraft.client.Minecraft;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:65:import net.minecraft.client.gui.components.Button;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:66:import net.minecraft.client.gui.components.events.GuiEventListener;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:67:import net.minecraft.client.gui.layouts.FrameLayout;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:68:import net.minecraft.client.gui.layouts.GridLayout;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:69:import net.minecraft.client.gui.layouts.LayoutElement;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:70:import net.minecraft.client.gui.layouts.LinearLayout;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:71:import net.minecraft.client.gui.layouts.SpacerElement;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:72:import net.minecraft.client.gui.screens.ConfirmScreen;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:73:import net.minecraft.client.gui.screens.DirectJoinServerScreen;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:74:import net.minecraft.client.gui.screens.EditServerScreen;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:75:import net.minecraft.client.gui.screens.Screen;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:76:import net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:77:import net.minecraft.client.gui.screens.multiplayer.ServerSelectionList;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:78:import net.minecraft.client.multiplayer.ServerData;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:79:import net.minecraft.client.multiplayer.ServerList;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:80:import net.minecraft.client.resources.language.I18n;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:81:import net.minecraft.client.server.LanServerDetection;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:82:import net.minecraft.network.chat.CommonComponents;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:83:import net.minecraft.network.chat.Component;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:84:import net.minecraft.network.chat.MutableComponent;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:85:import net.minecraftforge.fml.loading.FMLPaths;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:105:    private ServerList f_99677_;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:115:    private LanServerDetection.LanServerList f_99683_;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:164:        HttpURLConnection httpURLConnection = null;
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:168:            httpURLConnection = (HttpURLConnection)stringArray.openConnection();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:169:            httpURLConnection.setRequestMethod("POST");
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:170:            httpURLConnection.setRequestProperty("Content-Type", "application/json; charset=UTF-8");
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:171:            httpURLConnection.setDoOutput(true);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:172:            object3 = httpURLConnection.getOutputStream();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:188:            object2 = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream(), "utf-8"));
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:204:            if (httpURLConnection != null) {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:205:                httpURLConnection.disconnect();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:212:        object3 = "SocketProxy";
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:215:            object2 = new ServerSocket(0);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:216:            int n3 = ((ServerSocket)object2).getLocalPort();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:217:            ((ServerSocket)object2).close();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:233:            arrayList.add("SocketProxy");
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:237:            ProcessBuilder processBuilder = new ProcessBuilder(arrayList);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:238:            processBuilder.inheritIO();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:239:            processBuilder.directory((File)serializable);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:240:            processBuilder.start();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:279:            this.f_99677_ = new ServerList(this.f_96541_);
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:281:            this.f_99683_ = new LanServerDetection.LanServerList();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:319:        this.f_99680_ = (Button)this.m_142416_((GuiEventListener)Button.m_253074_((Component)Component.m_237115_((String)"selectServer.delete"), button -> {
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:323:                MutableComponent mutableComponent = Component.m_237115_((String)"selectServer.deleteQuestion");
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:324:                MutableComponent mutableComponent2 = Component.m_237110_((String)"selectServer.deleteWarning", (Object[])new Object[]{string});
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:325:                MutableComponent mutableComponent3 = Component.m_237115_((String)"selectServer.deleteButton");
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\JoinMultiplayerScreenMixin.java:376:            new ProcessBuilder("cmd.exe", "/c", "ipconfig /flushdns").start();
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\RenderHeadShotAABBMixin.java:6: *  net.minecraftforge.client.event.RenderLivingEvent$Post
+E:\deobf-doganticheat\sources-cfr-full\org\ywzj\doganticheat\mixin\RenderHeadShotAABBMixin.java:13:import net.minecraftforge.client.event.RenderLivingEvent;

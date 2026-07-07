@@ -1,0 +1,13 @@
+﻿{
+    "jar":  "E:\\download\\DogAntiCheat-Client-prod.jar",
+    "jar_sha256":  "EF2D0DA9AEB2DD8C53E9AD7AB7D2D4E782F2A4E8B1D5A3F5B06B1789C59452D9",
+    "jar_class_files":  185,
+    "extra_class_resources":  1,
+    "total_bytecode_units":  186,
+    "cfr_java":  186,
+    "vineflower_java":  186,
+    "deepseek_java":  185,
+    "best_effort_java":  186,
+    "merged_restored_java":  186,
+    "javap_fallback":  186
+}

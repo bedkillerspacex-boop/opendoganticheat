@@ -1,0 +1,12 @@
+*.class
+*.jar
+*.dll
+*.exe
+*.sys
+*.zip
+*.7z
+*.rar
+build/
+out/
+.gradle/
+.idea/

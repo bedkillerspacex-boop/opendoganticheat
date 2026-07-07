@@ -1,0 +1,64 @@
+﻿--- dac-1.20.dll ---
+
+
+Hash : C6E05EA44A3F7F033313822186F35F4B80E255A2F85E36B8672D75A50C110369
+Path : E:\deobf-doganticheat\native\dac-1.20.dll
+
+
+
+--- libcrypto-3-x64.dll ---
+
+
+Hash : BD7C78B1774DE4AA177A210C970C2C986E0ADF21794FD1757F0DCA974C7940C2
+Path : E:\deobf-doganticheat\native\libcrypto-3-x64.dll
+
+
+
+--- libssl-3-x64.dll ---
+
+
+Hash : 65FC0D1D7FA4A0A165A1EE5FCE07D12352D77F6CD7FC6A017ECB5219D6E0348E
+Path : E:\deobf-doganticheat\native\libssl-3-x64.dll
+
+
+
+--- msvcp140d.dll ---
+
+
+Hash : E1118FC5CA6A4BCFCA0DCBF7B4705BBEA6B7155FD58442DC870A61A866BB413D
+Path : E:\deobf-doganticheat\native\msvcp140d.dll
+
+
+
+--- ucrtbased.dll ---
+
+
+Hash : B9921954681CEB3F01A03071F87AAA33116E0AB0A1532309DCED36A0085471B7
+Path : E:\deobf-doganticheat\native\ucrtbased.dll
+
+
+
+--- vcruntime140d.dll ---
+
+
+Hash : F31A44B466C4B6A11F104FD75C221BED775F8DB2A6BB2A0D48409FA906A10E9E
+Path : E:\deobf-doganticheat\native\vcruntime140d.dll
+
+
+
+--- vcruntime140_1d.dll ---
+
+
+Hash : 41DD9842B8BA31009EE80C0B382DC2136923D6077767B5FE35DFACCE0634C5BC
+Path : E:\deobf-doganticheat\native\vcruntime140_1d.dll
+
+
+
+--- zlib.dll ---
+
+
+Hash : E35AA1418DE0B654E6F26A4B8607539FEAFF2B384BA4167653AB163D954248D3
+Path : E:\deobf-doganticheat\native\zlib.dll
+
+
+
